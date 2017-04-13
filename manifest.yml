@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: test-Amelia
+  host: test-Amelia
+  disk_quota: 1024M
+  services:
+  - test-Amelia-cloudantNoSQLDB
+  - availability-monitoring-auto
